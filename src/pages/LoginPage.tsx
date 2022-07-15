@@ -1,9 +1,12 @@
 import React from 'react'
+import LogForm from '../components/LogFrom'
 
-export default function LoginPage() {
+const LoginPage = () => {
   return (
     <div>
-      
+      <LogForm />
     </div>
   )
 }
+
+export default LoginPage
