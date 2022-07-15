@@ -3,7 +3,7 @@ export interface Pokemon {
     name: string,
     height: number,
     weight: number,
-    types: string[],
+    types: [{type: {name: string}}],
     stats: number[],
     img: string
 }
